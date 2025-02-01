@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بەرواری هجر</title>
+    <link rel="icon" href="../svg/pages-icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/Hijri-calendar.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <h2></h2>
+          <section class="Hijri-timing">
+            <div class="row">
+              <span>نوێژ</span>
+              <span>کات</span>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h3>بەرواری زاینیی بۆ کۆچی</h3>
+          <input type="month" />
+        </div>
+      </section>
+      <section>
+        <section class="Gregorian-Hijri-overlay" style="display: none">
+          <div class="container">
+            <div>
+              <h3>زاینی</h3>
+              <p>بەروار</p>
+            </div>
+            <div>
+              <h3>کۆچی</h3>
+              <p>بەروار</p>
+            </div>
+            <div class="prayer-timings">
+              <h3>کاتەکانی نوێژ</h3>
+              <p class="row">
+                <span>سەلا</span>
+                <span>کات</span>
+              </p>
+              <div class="timing-rows"></div>
+            </div>
+          </div>
+        </section>
+        <div class="container">
+          <h2>بەرواری ێرە</h2>
+          <div class="content"></div>
+          <div class="controllers">
+            <div class="prev-next-controller">
+              <i class="previous fa-regular fa-circle-left"></i>
+              <i class="next fa-regular fa-circle-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../js/main.js" type="module"></script>
+    <script src="../js/hijri-calendar.js" type="module"></script>
+  </body>
+</html>
